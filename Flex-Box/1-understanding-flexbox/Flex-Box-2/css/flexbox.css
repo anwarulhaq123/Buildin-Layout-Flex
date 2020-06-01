@@ -1,0 +1,39 @@
+/* ================================= 
+  Flexbox
+==================================== */
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  height: 450px;
+  align-items: stretch;
+}
+/* flex-grow proprty equally ditribute the space b/w items 
+ flex-basis eqully distribute the space 
+ when  browser gets narrow it adjut the items wth
+ equall space*/
+.item {
+  flex: 1; /* This is the flex short hand prperty*/
+}
+
+.item-2 {
+  flex: 2; /*Flex short hand set the 
+  flexbasis property to zero 
+  so its not distribute the space */
+}
+
+/*Flex short hand set the 
+  flexbasis property to zero 
+  so its not distribute the space 
+Following are the more properties of flex box . 
+
+.container{
+display: flex;
+min-height: 50vh;
+justify-content: center;
+align-item: center;
+This will adjust the intem exactly in the center
+// align-self:center; 
+//margin:auto browswer automatically set the space arround
+
+}

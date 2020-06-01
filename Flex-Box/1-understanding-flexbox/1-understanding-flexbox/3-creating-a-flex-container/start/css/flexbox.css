@@ -1,0 +1,28 @@
+/* ================================= 
+  Flexbox
+==================================== */
+/*
+.container {
+  display: flex;
+  /*flex-direction: row-reverse;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 280px;
+}*/
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-direction: row;
+}
+/* order property only applies to flex-items */
+
+.item-6 {
+  order: -1; /* This will chage the order of flex items 
+  and bring the item 6 to before item 1*/
+}
+
+.item-4 {
+  flex-grow: ; /*THis will grow up the item 4 5 times*/
+}
